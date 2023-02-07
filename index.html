@@ -4,14 +4,72 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- Style css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Script JS -->
     <script src="./js/script.js" defer></script>
-    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Favicon -->
+    <!-- <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" /> -->
+
     <title>Portfólio Eduardo</title>
   </head>
   <body>
-    <div id="teste">
-      <h1>Currículo Eduardo Lelis</h1>
-      <p>Testando meu site</p>
+    <div class="container-fluid p-0">
+      <div
+        id="header-content"
+        class="container-fluid position-fixed bg-dark text-white m-0"
+      >
+        <header id="header" class="d-flex flex-row justify-content-around">
+          <h1 id="nav-title">Titulo</h1>
+
+          <div id="nav-btn" class="d-flex align-items-center gap-3">
+            <a href="#"><button>Apresentação</button></a>
+            <a href="#stack-sec"><button>Stack</button></a>
+            <a href="#project-sec"><button>Projetos</button></a>
+            <a href="#contact-sec"><button>Contato</button></a>
+          </div>
+        </header>
+      </div>
+      <div id="content" class="d-flex flex-column">
+        <section id="presentation-sec" class="bg-primary">
+          <h1 id="title-presentation">Title presentation</h1>
+          <p id="text-presentation">Text Presentation</p>
+        </section>
+        <section id="stack-sec" class="bg-dark text-white">
+          <h1 id="title-stack">Stack title</h1>
+          <p id="text-stack">Text Stack</p>
+        </section>
+        <section id="project-sec" class="bg-primary">
+          <h1 id="title-project">Title project</h1>
+          <p id="text-project">Text project</p>
+        </section>
+        <section id="contact-sec" class="bg-dark text-white">
+          <h1 id="title-contact">Title contact</h1>
+          <p id="text-contact">Text contact</p>
+        </section>
+      </div>
+      <div id="footer-content">
+        <footer id="footer">
+          <p id="text-footer">Footer text</p>
+
+          <p id="footer-img">Image footer</p>
+        </footer>
+      </div>
     </div>
+
+    <!-- Bootstrap Javascript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

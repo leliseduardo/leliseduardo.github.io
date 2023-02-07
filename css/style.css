@@ -1,8 +1,16 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-#teste {
-  background-color: aqua;
+#header-content {
+  min-height: 10vh;
 }
+
+#content section {
+  min-height: 100vh;
+  padding-top: 10vh;
+}
+
+/*# sourceMappingURL=style.css.map */
