@@ -1,16 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  background-color: #202022;
+  color: white;
+  font-family: "Nunito", sans-serif;
+}
+
 #header-content {
   min-height: 10vh;
+  background-color: #303033;
+}
+
+#nav-title {
+  color: #fff;
+}
+
+.head-btn {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  transition: 0.7s;
+}
+.head-btn:hover {
+  opacity: 0.5;
 }
 
 #content section {
   min-height: 100vh;
   padding-top: 10vh;
+}
+
+.sec-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 15vh;
+  border-bottom: solid 2px #878787;
+}
+
+.title-content {
+  color: #00bbc9;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 10vh;
+  margin-left: 20vh;
+  font-size: 32pt;
+}
+
+.text-content {
+  align-self: center;
+  color: #cacaca;
+  font-size: 18pt;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,28 @@
+body {
+  background-color: $bg-color;
+  color: white;
+  font-family: "Nunito", sans-serif;
+}
+
 #header-content {
   min-height: 10vh;
+  background-color: $nav-color;
+  // opacity: 0.3;
+}
+
+#nav-title {
+  color: $nav-text-color;
+}
+
+.head-btn {
+  background-color: transparent;
+  color: $nav-text-color;
+  border: none;
+  transition: 0.7s;
+
+  &:hover {
+    opacity: 0.5;
+  }
 }
 
 #content {
@@ -7,4 +30,26 @@
     min-height: 100vh;
     padding-top: 10vh;
   }
+}
+
+.sec-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 15vh;
+  border-bottom: solid 2px $border-color;
+}
+
+.title-content {
+  color: $btn-color;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 10vh;
+  margin-left: 20vh;
+  font-size: 32pt;
+}
+
+.text-content {
+  align-self: center;
+  color: $text-color;
+  font-size: 18pt;
 }
