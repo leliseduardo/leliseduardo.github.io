@@ -32,6 +32,33 @@ body {
   }
 }
 
+#image-back {
+  position: absolute;
+  top: 10vh;
+  opacity: 0.1;
+  height: 90%;
+  width: 100%;
+}
+
+// #presentation-sec {
+//   background-image: url("../../images/bg-video.gif");
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   margin-top: 10vh;
+// }
+
+#title-presentation {
+  position: relative;
+}
+
+#text-presentation {
+  position: relative;
+}
+
+// .video-presentation {
+//   opacity: 0.3;
+// }
+
 .sec-content {
   display: flex;
   flex-direction: column;

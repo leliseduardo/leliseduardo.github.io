@@ -35,6 +35,22 @@ body {
   padding-top: 10vh;
 }
 
+#image-back {
+  position: absolute;
+  top: 10vh;
+  opacity: 0.1;
+  height: 90%;
+  width: 100%;
+}
+
+#title-presentation {
+  position: relative;
+}
+
+#text-presentation {
+  position: relative;
+}
+
 .sec-content {
   display: flex;
   flex-direction: column;
