@@ -7,7 +7,8 @@ body {
 #header-content {
   min-height: 10vh;
   background-color: $nav-color;
-  // opacity: 0.3;
+  position: fixed;
+  z-index: 100;
 }
 
 #nav-title {
@@ -40,13 +41,6 @@ body {
   width: 100%;
 }
 
-// #presentation-sec {
-//   background-image: url("../../images/bg-video.gif");
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   margin-top: 10vh;
-// }
-
 #title-presentation {
   position: relative;
 }
@@ -54,10 +48,6 @@ body {
 #text-presentation {
   position: relative;
 }
-
-// .video-presentation {
-//   opacity: 0.3;
-// }
 
 .sec-content {
   display: flex;
@@ -72,7 +62,7 @@ body {
   font-family: "Montserrat", sans-serif;
   margin-top: 10vh;
   margin-left: 20vh;
-  font-size: 32pt;
+  font-size: 42pt;
 }
 
 .text-content {

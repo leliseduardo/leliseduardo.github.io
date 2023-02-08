@@ -12,6 +12,8 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- Style css -->
     <link rel="stylesheet" href="./css/style.css" />
     <!-- Script JS -->
@@ -23,9 +25,9 @@
   </head>
   <body>
     <div class="container-fluid p-0">
-      <div id="header-content" class="container-fluid position-fixed m-0">
+      <div id="header-content" class="container-fluid m-0">
         <header id="header" class="d-flex flex-row justify-content-around pt-2">
-          <h1 id="nav-title">Eduardo Lelis</h1>
+          <h1 id="nav-title">Logo</h1>
 
           <div id="nav-btn" class="d-flex align-items-center gap-3 pb-1">
             <a href="#"><button class="head-btn">Apresentação</button></a>
@@ -38,28 +40,71 @@
         </header>
       </div>
       <div id="content" class="d-flex flex-column">
-        <section id="presentation-sec" class="sec-content">
+        <!-- Presentation  -->
+        <section
+          id="presentation-sec"
+          class="sec-content d-flex align-items-start"
+        >
           <img src="./images/bg-video.gif" alt="" id="image-back" />
-          <h1 id="title-presentation" class="title-content">
-            Title presentation
-          </h1>
-          <p id="text-presentation" class="text-content">Text Presentation</p>
-          <!-- <video autoplay loop muted class="video-presentation">
-            <source src="./videos/bg-video.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video> -->
+          <div data-aos="fade-right" data-aos-duration="3000">
+            <h1 id="title-presentation" class="title-content">
+              Title presentation
+            </h1>
+          </div>
+          <div
+            data-aos="fade-right"
+            data-aos-duration="3000"
+            data-aos-delay="1000"
+            class="align-self-center"
+          >
+            <p id="text-presentation" class="text-content">Text Presentation</p>
+          </div>
         </section>
+
+        <!-- Stack -->
         <section id="stack-sec" class="sec-content">
-          <h1 id="title-stack" class="title-content">Stack title</h1>
-          <p id="text-stack" class="text-content">Text Stack</p>
+          <div data-aos="fade-right" data-aos-duration="3000">
+            <h1 id="title-stack" class="title-content">Stack title</h1>
+          </div>
+          <div
+            data-aos="fade-right"
+            data-aos-duration="3000"
+            data-aos-delay="1000"
+            class="align-self-center"
+          >
+            <p id="text-stack" class="text-content">Text Stack</p>
+          </div>
         </section>
+
+        <!-- Projects -->
         <section id="project-sec" class="sec-content">
-          <h1 id="title-project" class="title-content">Title project</h1>
-          <p id="text-project" class="text-content">Text project</p>
+          <div data-aos="fade-right" data-aos-duration="3000">
+            <h1 id="title-project" class="title-content">Title project</h1>
+          </div>
+          <div
+            data-aos="fade-right"
+            data-aos-duration="3000"
+            data-aos-delay="1000"
+            class="align-self-center"
+          >
+            <p id="text-project" class="text-content">Text project</p>
+          </div>
         </section>
+
+        <!-- Contact -->
+
         <section id="contact-sec" class="sec-content">
-          <h1 id="title-contact" class="title-content">Title contact</h1>
-          <p id="text-contact" class="text-content">Text contact</p>
+          <div data-aos="fade-right" data-aos-duration="3000">
+            <h1 id="title-contact" class="title-content">Title contact</h1>
+          </div>
+          <div
+            data-aos="fade-right"
+            data-aos-duration="3000"
+            data-aos-delay="1000"
+            class="align-self-center"
+          >
+            <p id="text-contact" class="text-content">Text contact</p>
+          </div>
         </section>
       </div>
       <div id="footer-content">
@@ -77,5 +122,10 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
