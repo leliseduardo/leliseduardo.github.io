@@ -67,6 +67,8 @@ body {
   margin-top: 10vh;
   margin-left: 20vh;
   font-size: 42pt;
+  font-weight: 600;
+  text-shadow: 0.02em 0.02em 0.1em #19f0ff;
 }
 
 .text-content {
