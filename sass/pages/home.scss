@@ -4,6 +4,7 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+// Header content
 #header-content {
   min-height: 10vh;
   background-color: $nav-color;
@@ -26,6 +27,7 @@ body {
   }
 }
 
+// Main content
 #content {
   section {
     min-height: 100vh;
@@ -39,14 +41,6 @@ body {
   opacity: 0.1;
   height: 90%;
   width: 100%;
-}
-
-#title-presentation {
-  position: relative;
-}
-
-#text-presentation {
-  position: relative;
 }
 
 .sec-content {
@@ -71,4 +65,17 @@ body {
   align-self: center;
   color: $text-color;
   font-size: 18pt;
+}
+
+// Presentation
+#title-presentation {
+  position: relative;
+}
+
+#text-presentation {
+  position: relative;
+}
+
+// Stack
+.car-div {
 }

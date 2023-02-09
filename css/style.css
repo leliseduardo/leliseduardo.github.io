@@ -45,14 +45,6 @@ body {
   width: 100%;
 }
 
-#title-presentation {
-  position: relative;
-}
-
-#text-presentation {
-  position: relative;
-}
-
 .sec-content {
   display: flex;
   flex-direction: column;
@@ -75,6 +67,14 @@ body {
   align-self: center;
   color: #cacaca;
   font-size: 18pt;
+}
+
+#title-presentation {
+  position: relative;
+}
+
+#text-presentation {
+  position: relative;
 }
 
 /*# sourceMappingURL=style.css.map */
