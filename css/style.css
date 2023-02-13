@@ -37,13 +37,6 @@ body {
   padding-top: 10vh;
 }
 
-#image-back {
-  top: 10vh;
-  opacity: 0.1;
-  height: 90%;
-  width: 100%;
-}
-
 .sec-content {
   display: flex;
   flex-direction: column;
@@ -68,12 +61,23 @@ body {
   margin-left: 5vh;
 }
 
-#title-presentation {
-  position: relative;
+#presentation-sec {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin-top: 10vh;
 }
 
-#text-presentation {
-  position: relative;
+#pres-content {
+  width: 40vw;
+  height: auto;
+}
+
+#image-back {
+  width: 50vw;
+  height: 20%;
+  opacity: 0.2;
+  margin-top: 5vh;
 }
 
 /*# sourceMappingURL=style.css.map */
