@@ -38,7 +38,6 @@ body {
 }
 
 #image-back {
-  position: absolute;
   top: 10vh;
   opacity: 0.1;
   height: 90%;
@@ -57,16 +56,16 @@ body {
   color: #19f0ff;
   font-family: "Montserrat", sans-serif;
   margin-top: 10vh;
-  margin-left: 20vh;
+  margin-left: 5vh;
   font-size: 42pt;
   font-weight: 600;
   text-shadow: 0.02em 0.02em 0.1em #19f0ff;
 }
 
 .text-content {
-  align-self: center;
   color: #cacaca;
   font-size: 18pt;
+  margin-left: 5vh;
 }
 
 #title-presentation {
