@@ -12,8 +12,15 @@ body {
   z-index: 100;
 }
 
-#nav-title {
-  color: $nav-text-color;
+#header {
+  min-height: 10vh;
+}
+
+#nav-logo {
+  width: 250px;
+  height: 60px;
+  // box-shadow: 0.1em 0.1em 1em $btn-aux-color;
+  border-radius: 10px;
 }
 
 .head-btn {

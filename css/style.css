@@ -18,8 +18,14 @@ body {
   z-index: 100;
 }
 
-#nav-title {
-  color: #fff;
+#header {
+  min-height: 10vh;
+}
+
+#nav-logo {
+  width: 250px;
+  height: 60px;
+  border-radius: 10px;
 }
 
 .head-btn {
