@@ -1,5 +1,9 @@
 body {
-  background-color: $bg-color;
+  background: linear-gradient(
+    90deg,
+    rgba(32, 32, 34, 1) 0%,
+    rgba(48, 45, 51, 1) 100%
+  );
   color: white;
   font-family: "Nunito", sans-serif;
 }
@@ -164,7 +168,7 @@ body {
     background-color: $text-color;
     border-color: transparent;
     color: $bg-color;
-    // height: auto;
+
     .exp-ling {
       visibility: visible;
       text-align: start;
@@ -178,6 +182,10 @@ body {
     font-size: 13pt;
   }
 }
+
+// #last-leaning {
+//   visibility: hidden;
+// }
 
 // Projects
 #project-sec {

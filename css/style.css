@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #202022;
+  background: linear-gradient(90deg, rgb(32, 32, 34) 0%, rgb(48, 45, 51) 100%);
   color: white;
   font-family: "Nunito", sans-serif;
 }
