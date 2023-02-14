@@ -35,10 +35,10 @@ body {
 
 // Main content
 #content {
-  section {
-    min-height: 110vh;
-    padding-top: 10vh;
-  }
+  // section {
+  //   min-height: 110vh;
+  //   padding-top: 10vh;
+  // }
 }
 
 .sec-content {
@@ -46,7 +46,6 @@ body {
   flex-direction: column;
   justify-content: start;
   gap: 15vh;
-  border-bottom: solid 2px $border-color;
 }
 
 .title-content {
@@ -69,6 +68,7 @@ body {
 // Presentation
 #presentation-sec {
   height: 90vh;
+  padding-top: 10vh;
   display: flex;
   justify-content: start;
   gap: 5vw;
@@ -126,6 +126,8 @@ body {
 
 // Stack
 #stack-sec {
+  min-height: 90vh;
+  padding-top: 10vh;
   padding-right: 30px;
 }
 
@@ -174,4 +176,112 @@ body {
     visibility: hidden;
     font-size: 13pt;
   }
+}
+
+// Projects
+#project-sec {
+  min-height: 90vh;
+  padding-top: 10vh;
+}
+
+#img-project {
+  position: absolute;
+  top: 200vh;
+  z-index: -100;
+  height: 90%;
+  width: 100%;
+  opacity: 0.06;
+}
+
+#carousel {
+  box-shadow: 0.1em 0.1em 1em $btn-aux-color;
+  border-radius: 15px;
+  width: 55%;
+  margin-top: -10vh;
+
+  div {
+    border-radius: 15px;
+  }
+}
+
+// Contact
+#contact-sec {
+  min-height: 110vh;
+  padding-top: 10vh;
+}
+
+#contact-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+#contact-ways {
+  background-image: url("../../images/fundo\ 1.jpg");
+  min-width: 50%;
+  flex-basis: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0.1em 0.1em 1em $btn-aux-color;
+  border-radius: 20px;
+  padding: 20px;
+  color: $nav-text-color;
+  text-shadow: 0.1em 0.1em 1em $text-color;
+}
+
+#contact-networks {
+  min-width: 50%;
+  flex-basis: auto;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+
+  a {
+    text-decoration: none;
+    color: $nav-text-color;
+    font-size: 15pt;
+    transition: 1s;
+
+    &:hover {
+      color: $btn-color;
+      text-shadow: 0.1em 0.1em 1em $btn-aux-color;
+    }
+  }
+}
+
+#link-wpp {
+  text-decoration: none;
+  background-color: transparent;
+  color: $text-color;
+  font-weight: 600;
+  border: 2px solid $text-color;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: "Nunito", sans-serif;
+  transition: 0.7s;
+  max-width: 200px;
+  align-self: center;
+  margin-top: 5vh;
+  text-shadow: 0.02em 0.02em 3em $text-color;
+
+  &:hover {
+    background-color: $text-color;
+    border-color: transparent;
+    color: $bg-color;
+    // opacity: 0.5;
+  }
+}
+
+// Footer
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0.02em 0.02em 3em $text-color;
 }
