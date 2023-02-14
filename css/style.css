@@ -143,7 +143,7 @@ body {
   box-shadow: 0.1em 0.1em 1em #19f0ff;
   width: 100%;
   height: 50px;
-  text-align: end;
+  text-align: center;
   transition: 1s;
 }
 .stack-div:hover {
