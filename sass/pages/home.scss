@@ -83,12 +83,13 @@ body {
 }
 
 #button-cv {
+  text-decoration: none;
   background-color: transparent;
   color: $btn-aux-color;
   font-weight: 600;
   border: 2px solid $btn-aux-color;
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px;
   font-family: "Nunito", sans-serif;
   transition: 0.7s;
   max-width: 200px;
