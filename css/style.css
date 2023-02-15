@@ -78,6 +78,51 @@ body {
   margin-left: 5vw;
 }
 
+#title-presentation::after {
+  content: " | ";
+  color: transparent;
+  text-shadow: none;
+  animation: piscaTitle 0.7s 5;
+}
+
+#text-presentation-p1::after {
+  content: " | ";
+  color: transparent;
+  text-shadow: none;
+  animation: piscaText 0.7s 3.5s 5;
+}
+
+#text-presentation-p2::after {
+  content: " | ";
+  color: transparent;
+  text-shadow: none;
+  animation: piscaText 0.7s 7s infinite;
+}
+
+@keyframes piscaTitle {
+  0%, 100% {
+    color: #19f0ff;
+    text-shadow: 0.02em 0.02em 0.1em #19f0ff;
+    opacity: 1;
+  }
+  50% {
+    color: transparent;
+    text-shadow: none;
+    opacity: 0;
+  }
+}
+@keyframes piscaText {
+  0%, 100% {
+    color: #cacaca;
+    text-shadow: 0.02em 0.02em 3em #19f0ff;
+    opacity: 1;
+  }
+  50% {
+    color: transparent;
+    text-shadow: none;
+    opacity: 0;
+  }
+}
 #button-cv {
   text-decoration: none;
   background-color: transparent;
