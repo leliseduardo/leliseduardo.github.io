@@ -293,6 +293,33 @@ body {
   text-shadow: 0.1em 0.1em 1em $text-color;
 }
 
+.email-cel {
+  display: flex;
+}
+
+#email {
+  margin-right: 10px;
+}
+
+#phone {
+  margin-right: 10px;
+}
+
+.copy {
+  color: $text-color;
+  cursor: pointer;
+
+  &:hover {
+    color: $btn-aux-color;
+    text-shadow: 0.1em 0.1em 0.5em $text-color;
+  }
+}
+
+.checked {
+  color: $btn-aux-color;
+  cursor: pointer;
+}
+
 #contact-networks {
   min-width: 50%;
   flex-basis: auto;

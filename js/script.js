@@ -1,3 +1,4 @@
+// Efeito de digitação em presentation
 function delay(time) {
   return new Promise((resolve) => setTimeout(resolve, time));
 }
@@ -34,3 +35,37 @@ const elementFirstP = document.getElementById("text-presentation-p1");
 const elementSecondP = document.getElementById("text-presentation-p2");
 
 typeWrite(elementTitle, elementFirstP, elementSecondP);
+
+// Botão copy em contato
+const email = document.getElementById("email");
+const phone = document.getElementById("phone");
+const copyEmail = document.getElementById("copyEmail");
+const copyPhone = document.getElementById("copyPhone");
+let copyText = "";
+
+function handleCopy(target) {
+  target.classList.remove("bi-clipboard");
+  target.classList.remove("copy");
+  target.classList.add("bi-check-lg");
+  target.classList.add("checked");
+  setTimeout(() => {
+    target.classList.remove("bi-check-lg");
+    target.classList.remove("checked");
+    target.classList.add("bi-clipboard");
+    target.classList.add("copy");
+  }, 2000);
+}
+
+function textCapture(target) {
+  copyText = target.innerHTML;
+  navigator.clipboard.writeText(copyText);
+}
+
+copyEmail.addEventListener("click", (ev) => {
+  handleCopy(ev.currentTarget); // ev.currentTargert = copyEmail
+  textCapture(email);
+});
+copyPhone.addEventListener("click", () => {
+  handleCopy(copyPhone);
+  textCapture(phone);
+});
