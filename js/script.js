@@ -36,6 +36,135 @@ const elementSecondP = document.getElementById("text-presentation-p2");
 
 typeWrite(elementTitle, elementFirstP, elementSecondP);
 
+// Barra de porcentagem
+const htmlText = document.getElementById("stack-html-text");
+const html = document.getElementById("html");
+const cssText = document.getElementById("stack-css-text");
+const css = document.getElementById("css");
+const jsText = document.getElementById("stack-js-text");
+const js = document.getElementById("js");
+const bootstrapText = document.getElementById("stack-bootstrap-text");
+const bootstrap = document.getElementById("bootstrap");
+const sassText = document.getElementById("stack-sass-text");
+const sass = document.getElementById("sass");
+const mysqlText = document.getElementById("stack-mysql-text");
+const mysql = document.getElementById("mysql");
+const reactText = document.getElementById("stack-react-text");
+const react = document.getElementById("react");
+const nodeText = document.getElementById("stack-node-text");
+const node = document.getElementById("node");
+const mongoText = document.getElementById("stack-mongo-text");
+const mongo = document.getElementById("mongo");
+const postgreeText = document.getElementById("stack-postgree-text");
+const postgree = document.getElementById("postgree");
+const sequelizeText = document.getElementById("stack-sequelize-text");
+const sequelize = document.getElementById("sequelize");
+const typescriptText = document.getElementById("stack-typescript-text");
+const typescript = document.getElementById("typescript");
+const expressText = document.getElementById("stack-express-text");
+const express = document.getElementById("express");
+let control = 0;
+
+function changePercentage(element, min, max, text, tam) {
+  element.style.backgroundColor = "#00bbc9";
+
+  setInterval(() => {
+    if (min <= max) {
+      element.style.width = min * tam + "px";
+      element.innerHTML = min + "%";
+
+      min++;
+    }
+    if (min === max) {
+      control = 0;
+      setTimeout(() => {
+        element.style.backgroundColor = "transparent";
+        element.innerHTML = text;
+        element.style.alignSelf = "center";
+      }, 2000);
+    }
+  }, 20);
+}
+
+html.addEventListener("click", () => {
+  if (control === 0) {
+    control = 1;
+    changePercentage(htmlText, 0, 100, "HTML", 3.35);
+  }
+});
+css.addEventListener("click", () => {
+  if (control === 0) {
+    control = 1;
+    changePercentage(cssText, 0, 100, "CSS", 3.35);
+  }
+});
+js.addEventListener("click", () => {
+  if (control === 0) {
+    control = 1;
+    changePercentage(jsText, 0, 100, "Javascript", 3.35);
+  }
+});
+bootstrap.addEventListener("click", () => {
+  if (control === 0) {
+    control = 1;
+    changePercentage(bootstrapText, 0, 100, "Bootstrap", 1.75);
+  }
+});
+sass.addEventListener("click", () => {
+  if (control === 0) {
+    control = 1;
+    changePercentage(sassText, 0, 100, "SASS", 1.75);
+  }
+});
+mysql.addEventListener("click", () => {
+  if (control === 0) {
+    control = 1;
+    changePercentage(mysqlText, 0, 100, "MySql", 1.75);
+  }
+});
+react.addEventListener("click", () => {
+  if (control === 0) {
+    control = 1;
+    changePercentage(reactText, 0, 100, "ReactJS", 1.75);
+  }
+});
+node.addEventListener("click", () => {
+  if (control === 0) {
+    control = 1;
+    changePercentage(nodeText, 0, 75, "NodeJS", 1.75);
+  }
+});
+mongo.addEventListener("click", () => {
+  if (control === 0) {
+    control = 1;
+    changePercentage(mongoText, 0, 75, "MondoDB", 1.75);
+  }
+});
+postgree.addEventListener("click", () => {
+  if (control === 0) {
+    control = 1;
+    changePercentage(postgreeText, 0, 75, "PostgreeSQL", 1.75);
+  }
+});
+sequelize.addEventListener("click", () => {
+  if (control === 0) {
+    control = 1;
+    changePercentage(sequelizeText, 0, 75, "Sequelize", 1.75);
+  }
+});
+typescript.addEventListener("click", () => {
+  if (control === 0) {
+    control = 1;
+    changePercentage(typescriptText, 0, 75, "Typescript", 1.75);
+  }
+});
+express.addEventListener("click", () => {
+  if (control === 0) {
+    control = 1;
+    changePercentage(expressText, 0, 75, "ExpressJS", 1.75);
+  }
+});
+
 // Botão copy em contato
 const email = document.getElementById("email");
 const phone = document.getElementById("phone");

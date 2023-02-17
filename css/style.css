@@ -176,6 +176,8 @@ body {
 }
 
 .stack-div {
+  display: flex;
+  flex-direction: column;
   background-color: transparent;
   color: #cacaca;
   font-weight: 600;
@@ -204,6 +206,11 @@ body {
 .stack-div .exp-ling {
   visibility: hidden;
   font-size: 13pt;
+}
+
+.text-cont {
+  display: flex;
+  justify-content: center;
 }
 
 #project-sec {
