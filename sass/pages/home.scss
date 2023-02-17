@@ -183,6 +183,8 @@ body {
   min-height: 90vh;
   padding-top: 10vh;
   padding-right: 30px;
+  align-items: center;
+  justify-items: center;
 }
 
 #title-stack {
@@ -399,4 +401,53 @@ body {
   justify-content: center;
   align-items: center;
   text-shadow: 0.02em 0.02em 3em $text-color;
+}
+
+// Responsividade
+@media (max-width: 425px) {
+  // Header
+  #header-content {
+    display: none;
+    visibility: hidden;
+  }
+
+  // Presentation
+  #presentation-sec {
+    margin-top: -10vh;
+  }
+
+  .title-content {
+    font-size: 22pt;
+  }
+
+  .text-content {
+    font-size: 10pt;
+  }
+
+  // Stack
+  #stack-sec {
+    display: none;
+    visibility: hidden;
+  }
+
+  // Project
+  #project-sec {
+    display: none;
+    visibility: hidden;
+  }
+
+  // Contact
+  #contact-sec {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 2560px) {
 }

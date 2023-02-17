@@ -160,6 +160,8 @@ body {
   min-height: 90vh;
   padding-top: 10vh;
   padding-right: 30px;
+  align-items: center;
+  justify-items: center;
 }
 
 #title-stack {
@@ -358,6 +360,34 @@ body {
   justify-content: center;
   align-items: center;
   text-shadow: 0.02em 0.02em 3em #cacaca;
+}
+
+@media (max-width: 425px) {
+  #header-content {
+    display: none;
+    visibility: hidden;
+  }
+  #presentation-sec {
+    margin-top: -10vh;
+  }
+  .title-content {
+    font-size: 22pt;
+  }
+  .text-content {
+    font-size: 10pt;
+  }
+  #stack-sec {
+    display: none;
+    visibility: hidden;
+  }
+  #project-sec {
+    display: none;
+    visibility: hidden;
+  }
+  #contact-sec {
+    display: none;
+    visibility: hidden;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
