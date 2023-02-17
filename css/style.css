@@ -371,10 +371,13 @@ body {
     margin-top: -10vh;
   }
   .title-content {
-    font-size: 22pt;
+    font-size: 28pt;
   }
   .text-content {
-    font-size: 10pt;
+    font-size: 12pt;
+  }
+  #image-presentation {
+    display: none;
   }
   #stack-sec {
     display: none;
