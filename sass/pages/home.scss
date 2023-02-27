@@ -468,14 +468,46 @@ body {
 
   // Project
   #project-sec {
+    // display: none;
+    // visibility: hidden;
+  }
+
+  #img-project {
     display: none;
-    visibility: hidden;
+  }
+
+  #carousel {
+    width: 98vw;
   }
 
   // Contact
   #contact-sec {
-    display: none;
-    visibility: hidden;
+    // display: none;
+    // visibility: hidden;
+  }
+
+  #contact-content {
+    width: 100vw;
+  }
+
+  #contact-ways {
+    min-width: 97vw;
+    height: 70vh;
+    justify-content: center;
+  }
+
+  .email-cel {
+    font-size: 12pt;
+    flex-wrap: wrap;
+  }
+
+  #link-wpp {
+    font-size: 10pt;
+  }
+
+  // Footer
+  #footer-content {
+    padding-top: 10vh;
   }
 }
 
