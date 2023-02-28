@@ -496,8 +496,12 @@ body[data-aos-delay="11000"] [data-aos],
   }
 
   #title-project {
+    padding-top: 5vh;
+    width: 100%;
     font-size: 24pt;
-    margin-left: 3vh;
+    text-align: center;
+    margin: auto;
+    // margin-left: 3vh;
   }
 
   #img-project {
@@ -513,12 +517,16 @@ body[data-aos-delay="11000"] [data-aos],
   }
 
   #title-contact {
-    margin-bottom: -10vh;
-    margin-left: 28vw;
+    padding-top: 5vh;
+    width: 100%;
+    font-size: 24pt;
+    text-align: center;
+    margin: auto;
   }
 
   #contact-content {
     width: 100vw;
+    margin-top: -10vh;
   }
 
   #contact-ways {
@@ -540,7 +548,4 @@ body[data-aos-delay="11000"] [data-aos],
   #footer-content {
     // padding-top: 10vh;
   }
-}
-
-@media (max-width: 2560px) {
 }

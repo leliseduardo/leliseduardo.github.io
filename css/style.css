@@ -448,8 +448,11 @@ body[data-aos-delay="11000"] [data-aos],
     margin-bottom: 0;
   }
   #title-project {
+    padding-top: 5vh;
+    width: 100%;
     font-size: 24pt;
-    margin-left: 3vh;
+    text-align: center;
+    margin: auto;
   }
   #img-project {
     display: none;
@@ -458,11 +461,15 @@ body[data-aos-delay="11000"] [data-aos],
     width: 98vw;
   }
   #title-contact {
-    margin-bottom: -10vh;
-    margin-left: 28vw;
+    padding-top: 5vh;
+    width: 100%;
+    font-size: 24pt;
+    text-align: center;
+    margin: auto;
   }
   #contact-content {
     width: 100vw;
+    margin-top: -10vh;
   }
   #contact-ways {
     min-width: 97vw;
