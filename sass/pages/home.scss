@@ -417,7 +417,26 @@ body[data-aos-delay="11000"] [data-aos],
 }
 
 // Responsividade
-@media (max-width: 425px) {
+@media (max-width: 873px) {
+  .div-stack-divs {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 798px) {
+  .title-content {
+    font-size: 30pt;
+  }
+
+  .text-content {
+    font-size: 15pt;
+  }
+}
+
+@media (max-width: 768px) {
   // Header
   #header-content {
     display: none;
@@ -521,12 +540,6 @@ body[data-aos-delay="11000"] [data-aos],
   #footer-content {
     // padding-top: 10vh;
   }
-}
-
-@media (max-width: 768px) {
-}
-
-@media (max-width: 1024px) {
 }
 
 @media (max-width: 2560px) {

@@ -391,7 +391,23 @@ body[data-aos-delay="11000"] [data-aos],
   text-shadow: 0.02em 0.02em 3em #cacaca;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 873px) {
+  .div-stack-divs {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 798px) {
+  .title-content {
+    font-size: 30pt;
+  }
+  .text-content {
+    font-size: 15pt;
+  }
+}
+@media (max-width: 768px) {
   #header-content {
     display: none;
   }
