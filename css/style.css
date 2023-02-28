@@ -12,6 +12,11 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+body[data-aos-delay="11000"] [data-aos],
+[data-aos][data-aos][data-aos-delay="11000"] {
+  transition-delay: 12000ms;
+}
+
 #header-content {
   min-height: 10vh;
   background-color: #302d33;
@@ -37,17 +42,6 @@ body {
 }
 .head-btn:hover {
   opacity: 0.5;
-}
-
-#header-responsivity {
-  position: fixed;
-  left: 70vw;
-  margin-top: 30vh;
-  z-index: 1000;
-  width: 30vw;
-  height: 50vh;
-  background-color: white;
-  opacity: 0;
 }
 
 #content {
@@ -95,6 +89,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: start;
+}
+
+#projects-btn {
+  align-self: center;
+  margin-top: 10vh;
 }
 
 #title-presentation::after {
@@ -388,9 +387,6 @@ body {
   #header-content {
     display: none;
   }
-  #header-responsivity {
-    display: none;
-  }
   #presentation-sec {
     margin-top: -10vh;
     width: 100vw;
@@ -416,11 +412,19 @@ body {
     gap: 40px;
     margin-bottom: 0;
   }
+  #title-project {
+    font-size: 24pt;
+    margin-left: 5vh;
+  }
   #img-project {
     display: none;
   }
   #carousel {
     width: 98vw;
+  }
+  #title-contact {
+    margin-bottom: -10vh;
+    margin-left: 15vh;
   }
   #contact-content {
     width: 100vw;
@@ -436,9 +440,6 @@ body {
   }
   #link-wpp {
     font-size: 10pt;
-  }
-  #footer-content {
-    padding-top: 10vh;
   }
 }
 

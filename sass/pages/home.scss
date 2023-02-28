@@ -8,6 +8,11 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+body[data-aos-delay="11000"] [data-aos],
+[data-aos][data-aos][data-aos-delay="11000"] {
+  transition-delay: 12000ms;
+}
+
 // Header content
 #header-content {
   min-height: 10vh;
@@ -35,17 +40,6 @@ body {
   &:hover {
     opacity: 0.5;
   }
-}
-
-#header-responsivity {
-  position: fixed;
-  left: 70vw;
-  margin-top: 30vh;
-  z-index: 1000;
-  width: 30vw;
-  height: 50vh;
-  background-color: white;
-  opacity: 0;
 }
 
 // Main content
@@ -95,6 +89,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: start;
+}
+
+#projects-btn {
+  align-self: center;
+  margin-top: 10vh;
 }
 
 #title-presentation::after {
@@ -167,14 +166,6 @@ body {
     // opacity: 0.5;
   }
 }
-
-// #image-presentation {
-//   width: 40vw;
-//   height: 20%;
-//   margin-top: 10vh;
-//   box-shadow: 0.1em 0.1em 1em $btn-aux-color;
-//   border-radius: 10px;
-// }
 
 #image-presentation {
   width: 30vw;
@@ -424,10 +415,6 @@ body {
     display: none;
   }
 
-  #header-responsivity {
-    display: none;
-  }
-
   // Presentation
   #presentation-sec {
     margin-top: -10vh;
@@ -455,8 +442,6 @@ body {
 
   // Stack
   #stack-sec {
-    // display: none;
-    // visibility: hidden;
   }
 
   .div-stack-divs {
@@ -472,6 +457,11 @@ body {
     // visibility: hidden;
   }
 
+  #title-project {
+    font-size: 24pt;
+    margin-left: 5vh;
+  }
+
   #img-project {
     display: none;
   }
@@ -482,8 +472,11 @@ body {
 
   // Contact
   #contact-sec {
-    // display: none;
-    // visibility: hidden;
+  }
+
+  #title-contact {
+    margin-bottom: -10vh;
+    margin-left: 15vh;
   }
 
   #contact-content {
@@ -507,7 +500,7 @@ body {
 
   // Footer
   #footer-content {
-    padding-top: 10vh;
+    // padding-top: 10vh;
   }
 }
 
