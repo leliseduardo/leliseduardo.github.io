@@ -12,9 +12,9 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
-body[data-aos-delay="11000"] [data-aos],
-[data-aos][data-aos][data-aos-delay="11000"] {
-  transition-delay: 12000ms;
+body[data-aos-delay="9000"] [data-aos],
+[data-aos][data-aos][data-aos-delay="9000"] {
+  transition-delay: 9000ms;
 }
 
 #header-content {
@@ -108,14 +108,14 @@ body[data-aos-delay="11000"] [data-aos],
   content: " | ";
   color: transparent;
   text-shadow: none;
-  animation: piscaTitle 0.7s 5;
+  animation: piscaTitle 0.7s 3;
 }
 
 #text-presentation-p1::after {
   content: " | ";
   color: transparent;
   text-shadow: none;
-  animation: piscaText 0.7s 3.5s 5;
+  animation: piscaText 0.7s 3.5s 3;
 }
 
 #text-presentation-p2::after {

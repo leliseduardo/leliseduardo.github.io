@@ -14,19 +14,19 @@ async function typeWrite(element1, element2, element3) {
   textElement1.forEach((caracter, i) => {
     setTimeout(() => {
       element1.innerHTML += caracter;
-    }, 75 * i);
+    }, 50 * i);
   });
-  await delay(2700);
+  await delay(2200);
   textElement2.forEach((caracter, i) => {
     setTimeout(() => {
       element2.innerHTML += caracter;
-    }, 60 * i);
+    }, 50 * i);
   });
-  await delay(3500);
+  await delay(3000);
   textElement3.forEach((caracter, i) => {
     setTimeout(() => {
       element3.innerHTML += caracter;
-    }, 60 * i);
+    }, 50 * i);
   });
 }
 
