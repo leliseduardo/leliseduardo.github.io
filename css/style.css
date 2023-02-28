@@ -24,6 +24,14 @@ body[data-aos-delay="11000"] [data-aos],
   z-index: 100;
 }
 
+#header-content-responsivity {
+  display: none;
+  min-height: 10vh;
+  background-color: #302d33;
+  position: fixed;
+  z-index: 100;
+}
+
 #header {
   min-height: 10vh;
 }
@@ -387,8 +395,15 @@ body[data-aos-delay="11000"] [data-aos],
   #header-content {
     display: none;
   }
+  #header-content-responsivity {
+    display: flex;
+    min-height: 10vh;
+    justify-content: center;
+    align-items: center;
+    gap: 7vh;
+  }
   #presentation-sec {
-    margin-top: -10vh;
+    margin-top: 0vh;
     width: 100vw;
     height: 110vh;
   }
