@@ -397,6 +397,7 @@ body[data-aos-delay="11000"] [data-aos],
   }
   #header-content-responsivity {
     display: flex;
+    width: 100vw;
     min-height: 10vh;
     justify-content: center;
     align-items: center;
@@ -410,7 +411,7 @@ body[data-aos-delay="11000"] [data-aos],
   #presentation-content {
     width: 100vw;
     height: 100vh;
-    padding-right: 20px;
+    padding-right: 25px;
   }
   .title-content {
     font-size: 30pt;
@@ -421,6 +422,9 @@ body[data-aos-delay="11000"] [data-aos],
   #image-presentation {
     display: none;
   }
+  #title-stack {
+    margin-left: 11vw;
+  }
   .div-stack-divs {
     display: flex;
     flex-direction: column;
@@ -429,7 +433,7 @@ body[data-aos-delay="11000"] [data-aos],
   }
   #title-project {
     font-size: 24pt;
-    margin-left: 5vh;
+    margin-left: 3vh;
   }
   #img-project {
     display: none;
@@ -439,7 +443,7 @@ body[data-aos-delay="11000"] [data-aos],
   }
   #title-contact {
     margin-bottom: -10vh;
-    margin-left: 15vh;
+    margin-left: 28vw;
   }
   #contact-content {
     width: 100vw;
@@ -450,7 +454,7 @@ body[data-aos-delay="11000"] [data-aos],
     justify-content: center;
   }
   .email-cel {
-    font-size: 12pt;
+    font-size: 11pt;
     flex-wrap: wrap;
   }
   #link-wpp {
