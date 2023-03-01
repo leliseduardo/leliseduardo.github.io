@@ -424,6 +424,9 @@ body[data-aos-delay="9000"] [data-aos],
     gap: 40px;
     margin-bottom: 0;
   }
+  #stack-sec {
+    margin-top: 15vh;
+  }
 }
 
 @media (max-width: 798px) {
@@ -433,6 +436,9 @@ body[data-aos-delay="9000"] [data-aos],
 
   .text-content {
     font-size: 15pt;
+  }
+  #stack-sec {
+    margin-top: 30vh;
   }
 }
 
